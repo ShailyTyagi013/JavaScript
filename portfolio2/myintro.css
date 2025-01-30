@@ -1,0 +1,409 @@
+ 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(0, 0, 0, 0.916);
+    color: white;
+}
+
+nav{
+    /* background-color: rgb(32, 32, 65); */
+    padding:10px 0;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.right ul {
+    display: flex;
+    list-style: none;
+}
+.right ul li{
+    margin: 0 30px;
+    
+}
+.right ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+.right ul li a:hover{
+    color: blueviolet;
+    
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: purple;
+    font-family: 'Montserrat', cursive;
+}
+
+
+
+.content{
+    
+    
+    display: flex;
+    flex-direction: row;
+   
+    margin: 5% 10%;
+    
+}
+ .right-content{
+    float: right;
+    display: flex;
+    justify-content:right;
+}
+.right-content img{
+    width: 80%;
+    height: 90%;
+    border-radius: 50%; 
+    /* box-shadow: 0px 0px 20px 5px rgb(243, 239, 242); */
+    
+}
+.right-content img:hover{
+  /* box-shadow: 0px 0px 20px 5px rgb(113, 168, 191); */
+}
+.left-content{
+    margin-top: 10%;
+}
+.left-content h1{
+    font-size:20px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+} 
+.left-content p{
+    font-size:20px;
+    line-height: 25px;
+}
+span{
+    color: blueviolet;
+}
+nav  img{
+    width:30px;
+    height: 30px;
+    margin: 0 10px;
+    
+
+   
+}
+.logo ion-icon{
+    font-size:20px;
+    margin: 10px 10px;
+    
+}
+.logo ion-icon:hover{
+  font-size: 40px;
+}
+.link{
+    color: blue;
+}
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.contact button{
+    width: 120px;
+    /* font-size: 16px; */
+    background-color: rgb(53, 7, 53);
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    margin: 10px 5px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    transition: 0.5s;
+}  
+  .contact button:hover{
+         background-color: white;
+         color: rgb(24, 1, 24);
+         cursor: pointer;
+  }
+
+
+  .main h1{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+  }
+  .main-about{
+    color: orange;
+    margin:  0 10px;
+  }
+  .second-section{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    
+    
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .second-section div{
+    width: 100%;
+    
+    
+    
+    padding: 20px;
+    margin: 10px 5px;
+  }
+  .second-section-img{
+    float: right;
+    display: flex;
+    justify-content:right;
+  }
+  .second-section-img img{
+    width: 70%;
+    height: 70%;
+    box-shadow: 0px 0px 20px 5px rgb(17, 43, 54);
+  }
+  .second-section-content p{
+    font-size: 14px;
+    /* margin-bottom: 20px; */
+    line-height: 20px;
+  }
+  .whatdo h1{
+    font-size: 16px;
+    color: green;
+  }
+  .whatdo ul{
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 15px;
+  }
+
+  /* range */
+
+  .proficiency{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    
+    margin-top: 50px;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0 50px;
+    
+    
+    
+    
+  }
+
+  .range-img{
+    float: right;
+    display: flex;
+    justify-content:right;
+  }
+  .range-img img{
+    width: 70%;
+    height: 70%;
+    box-shadow: 0px 0px 20px 5px rgb(18, 46, 58);
+  }
+   .range li{
+    list-style: none;
+    margin: 10px 0;
+    padding: 10px;
+   }
+   .bar{
+    display: block;
+      background-color: #353b48;
+      /* height: 20px; */
+      width: 400px;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+  .bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  .bar span{
+    height: 18px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
+  }
+  .html{
+    width: 90%;
+    animation: html 3s;
+  }
+  .css{
+    width: 90%;
+    animation: css 3s;
+  }
+  .Javascript{
+    width: 70%;
+    animation: Javascript 3s;
+  }
+  .bootstrap{
+    width: 65%;
+    animation: bootstrap 3s;
+  }
+  @keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+  }
+
+  @keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+  }
+
+  @keyframes Javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 45%;
+    }
+  }
+
+  @keyframes bootstrap{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+  }
+
+
+  .project{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+  }
+  .project h1{
+    font-size: 20px;
+  }
+  .project-box{
+    /* background-color: #353b48; */
+    margin-top: 50px;
+  
+  }
+  .project-box div{
+    height: 150px;
+    width: 40%;
+    background-color: rgb(230, 225, 218);
+    margin: 20px;
+    display: inline-table;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(220, 196, 196, 0.22);
+    outline: none;
+    border: none;
+    color: black;
+  }
+  .first-box:hover{
+    background: linear-gradient(45deg,rgb(205, 116, 205),rgb(200, 84, 103));
+  }
+  .first-box h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .first-box button{
+    margin-top: 10px;
+    padding: 10px;
+    width: 100px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color:#353b48;
+  }
+  .first-box button:hover{
+    cursor: pointer;
+    background-color: rgb(189, 149, 76);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(12, 1, 1, 0.859);
+  }
+   .more_project{
+    width: 120px;
+    font-size: 10px;
+    background-color: rgb(97, 97, 237);
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    margin: 10px 5px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    transition: 0.5s;
+   }
+   .more_project:hover{
+    background-color: rgb(46, 88, 159);
+   
+   }
+
+   .contact-me{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-me h1{
+    font-size: 20px;
+  }
+  .contact-me span{
+    color: darkcyan;
+  }
+  .inbox{
+    background-color: #767c87;
+    
+    padding:  20px 0;
+    width: 60%;
+    margin-top: 30px;
+    display: inline-table;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(226, 213, 213, 0.25), 0 10px 10px rgba(233, 218, 218, 0.22);
+  }
+    
+  
+  .inbox input{ 
+    width: 40%;
+    font-size: 14px;
+    margin: 20px 20px;
+    padding: 5px 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  textarea{
+    font-size: 16px;
+    height: 30vh;
+    padding: 2px;
+    width: 50%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  .footer{
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
